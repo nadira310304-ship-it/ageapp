@@ -9,6 +9,13 @@ public class AgeApp {
         // Check for 10-year milestones up to 120
         if (age >= 10 && age <= 120 && age % 10 == 0) {
             System.out.println("Anniversary Party!!");
+
+        // Special 100th Birthday 3-line congratulations
+        if (age == 100) {
+            System.out.println("Congratulations on turning 100!");
+            System.out.println("What an incredible milestone!");
+            System.out.println("Wishing you joy and good health!");
+    
         
         }
         
