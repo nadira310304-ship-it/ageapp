@@ -5,7 +5,11 @@ public class AgeApp {
         // 1. Specific age checks & Special Announcements
         if (age == 18) {
             System.out.println("You can drive a car.");
-            
+
+        // Check for 10-year milestones up to 120
+        if (age >= 10 && age <= 120 && age % 10 == 0) {
+            System.out.println("Anniversary Party!!");
+        
         }
         
     }
